@@ -10,6 +10,8 @@ Minor differences between the above sender
 2. The encryption key is removed (must also be removed in the receiver (or added in both) in order to work)
 3. Currently only allows for the sending of packets from the msp430. Receiving has not been implemented yet.
 
+Uses the mspdebug (https://github.com/dlbeer/mspdebug) command line tools with the ti gcc msp430 toolchain. An example makefile is provided but would need to be changed to source the proper directories from a linux machine. The files can also be copied to a project in codecomposer studio.
+
 Uses the USCI_A0 SPI mode with the following pinout.
 
 P1.1 MISO
@@ -18,4 +20,5 @@ P1.4 SCLK
 P1.5 CS
 P2.5 RST
 
-Uses the mspdebug (https://github.com/dlbeer/mspdebug) command line tools with the ti gcc msp430 toolchain. An example makefile is provided but would need to be changed to source the proper directories from a linux machine. The files can also be copied to a project in codecomposer studio.
+![PXL_20230518_023703545](https://github.com/marshallez/msp430-rfm69/assets/78482082/5652f449-6514-45df-8b5c-6444bcdd5762)
+![PXL_20230518_023753327](https://github.com/marshallez/msp430-rfm69/assets/78482082/ea200ae7-c80e-499b-9404-8edf02aeda86)
