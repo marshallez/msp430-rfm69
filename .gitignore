@@ -1,0 +1,6 @@
+.vscode
+.settings
+/build
+msp430g2553.ld
+lnk_msp430g2553.cmd
+.editorconfig
